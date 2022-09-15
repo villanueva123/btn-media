@@ -1,0 +1,164 @@
+.btn-media-inner-wrapper-podcast {
+    display: grid;
+    place-items: start;
+    grid-template-columns: repeat(2,1fr);
+    -ms-grid-columns: repeat(2,1fr);
+    grid-column-gap: 1.2em;
+    grid-row-gap: 1.2em;
+    place-items: start;
+}
+.btn-media-podcast-item-description a,
+.btn-media-podcast-item-description a:hover {
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    font-family: 'Lato';
+}
+.btn-media-podcast-item-description {
+    font-size: 15px;
+    line-height: 1.4em;
+    padding: 25px 0px;
+}
+.btn-media-podcast-item-title h3 {
+    font-family: "eurostile-condensed", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    color: #000005;
+    margin-bottom: 1em;
+}
+.btn-media-podcast-item {
+    background: #f1efef;
+    padding: 2em;
+    border-radius: 20px;
+	height: 100%;
+}
+.btn-media-podcast-item-link a,
+.btn-media-podcast-item-link a:hover {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 3px;
+    background-color: #fac359;
+    color: #000005 !important;
+    padding: 10px 30px;
+    display: block;
+    text-align: center;
+    max-width:290px;
+    margin: 0 auto;
+}
+.btn-media-podcast-item-link a:hover{
+    background-color: #000005;
+    color: #fff !important;
+}
+.btn-media-podcast-item-audio iframe {
+    padding: 10px;
+    border-radius: 10px;
+	background:#fff;
+    min-height: 105px;
+}
+h2.btn-media-podcast-heading {
+    font-family: "eurostile-condensed", Sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+.btn-media-download-item-name {
+    font-size: 17px;
+    color: #000;
+}
+
+.btn-media-download-item a{
+    background: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    display: block;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.btn-media-download-item-svg {
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    transition: all ease 0.5s;
+    left: 0px;
+    height: 0;
+    width: 100%;
+    background: rgb(241 95 67 / 94%);
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+
+}
+.btn-media-download-item a:hover .btn-media-download-item-svg{
+    height:100%;
+
+}
+.btn-media-wrapper-downloads-wrapper-inner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: repeat(2, 1fr);
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+    padding: 0px;
+    margin:0px;
+}
+.btn-media-download-item img {
+    max-width: 70px;
+    margin-bottom: 15px;
+}
+.btn-media-wrapper-podcast-individual {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.btn-media-download-title h3 {
+    font-family: "eurostile-condensed", Sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+	text-transform:none;
+    color: #000005;
+}
+.btn-media-podcast-item-description a {
+    word-break: break-all;
+    line-height: 1.2em;
+}
+.btn-media-wrapper-podcast-individual-2 .btn-media-wrapper-downloads-wrapper {
+    margin-left: 10px;
+}
+.btn-media-wrapper-podcast-individual-2 .btn-media-wrapper-podcast{
+	margin-right:10px;
+}
+.btn-media-wrapper-podcast-individual-2 .btn-media-podcast-item,
+.btn-media-wrapper-podcast-individual .btn-media-podcast-item{
+	height:auto;
+}
+.btn-media-podcast-item-description a, .btn-media-podcast-item-description a:hover {
+    font-size: 15px;
+    line-height: 1.4em;
+    padding: 25px 0px;
+}
+.btn-media-wrapper-podcast-individual-2 .btn-media-podcast-item{
+	padding:0em;
+}
+.btn-media-wrapper-podcast-individual-2 .btn-media-wrapper-podcast, .btn-media-wrapper-podcast-individual-2 .btn-media-wrapper-downloads-wrapper {
+    width: 48%;
+    background: #f1efef;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 10px;
+}

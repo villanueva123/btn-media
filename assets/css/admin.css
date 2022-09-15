@@ -1,0 +1,9 @@
+.form-field.btn-media-wrapper-metabox.postbox {
+    padding: 2em;
+}
+.form-field.btn-media-wrapper-metabox.postbox .form-table td{
+    vertical-align: middle;
+}
+th.field-right {
+    width: 75%;
+}
